@@ -10,6 +10,12 @@
     font-weight: 700;
 }
 
+.banner__titulo_2 {
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+
 .banner__texto {
     font-weight: 500;
     margin: 1em 0;
@@ -37,6 +43,11 @@
 @media screen and (min-width: 1024px) {
     .banner__titulo {
         font-size: 36px;
+    }
+
+    .banner__titulo_2 {
+        font-size: 36px;
+        padding-bottom: 1em;
     }
 
     .banner__pesquisa {
