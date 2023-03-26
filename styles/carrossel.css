@@ -62,6 +62,10 @@
     padding: 1em;
 }
 
+.descrição{
+    padding-right: 2em;
+}
+
 .descrição__titulo {
     color: var(--laranja);
     font-weight: 700;
@@ -88,6 +92,18 @@
 .descrição__texto {
     font-size: 14px;
     text-align: justify;
+}
+
+.descrição__imagem{
+    width: 90px;
+    height: 90px;
+    padding-top: 7.5em;
+}
+
+.imagens-juntas{
+    display: block;
+    align-items: center;
+    padding-block-start: 0;
 }
 
 .botões__item {
@@ -125,6 +141,44 @@
     .card {
         width: 70%;
         margin: 2em auto;
+    }
+
+    .card__descrição {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.5em;
+    }
+
+    .descrição{
+        padding-right: 5em;
+    }
+
+    .descrição__imagem{
+        width: 150px;
+        height: 150px;
+        padding-top: 1.5em;
+        padding-right: 0.5em;
+    }
+
+    .imagens-juntas{
+        display: none;
+        align-items: center;
+        padding-block-start: 0;
+    }
+
+    .botões__ancora {
+        background-color: var(--laranja);
+        padding: 1em 3em;
+        color: var(--branco);
+        font-weight: 700;
+        text-decoration: none;
+        transition: all .5s;
+        border: 10px solid transparent;
+    }
+
+    .botões__ancora:hover{
+        border: 10px solid var(--azul);
+        border-radius: 8%;
     }
 }
 

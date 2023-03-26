@@ -106,6 +106,12 @@
         text-transform: uppercase;
     }
 
+    .opções__item:hover{
+        background: var(--azul-degrade);
+        color: var(--branco);
+        font-size: 18px;
+    }
+
     .opções__link {
         text-decoration: none;
         color: var(--preto);
