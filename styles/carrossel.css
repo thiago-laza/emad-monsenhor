@@ -115,7 +115,23 @@
     padding: 1em 3em;
     color: var(--branco);
     font-weight: 700;
+    border-radius: 10px;
     text-decoration: none;
+}
+
+.botões__ancora-mobile {
+    background-color: var(--laranja);
+    padding: 1em 3em;
+    color: var(--branco);
+    font-weight: 700;
+    border-radius: 10px;
+    text-decoration: none;
+    
+    
+}
+
+.botões__ancora-2{
+    display: none;
 }
 
 @media screen and (min-width: 1024px) {
@@ -167,18 +183,53 @@
     }
 
     .botões__ancora {
+        
         background-color: var(--laranja);
         padding: 1em 3em;
         color: var(--branco);
         font-weight: 700;
+        border-radius: 10px;
         text-decoration: none;
-        transition: all .5s;
-        border: 10px solid transparent;
+        
+        
+    }
+
+    .botões__ancora-mobile {
+        display: none;
+        background-color: var(--laranja);
+        padding: 1em 3em;
+        color: var(--branco);
+        font-weight: 700;
+        border-radius: 10px;
+        text-decoration: none;
+        
+        
+    }
+
+    .botões__ancora-2 {
+        display: inline;
+        background-color: var(--laranja);
+        padding: 0.5em 0.5em;
+        color: var(--branco);
+        font-weight: 700;
+        border-radius: 10px;
+        text-decoration: none;
+        
+        
+    }
+
+    .botões-juntos{
+        padding-top: 1em;
     }
 
     .botões__ancora:hover{
-        border: 10px solid var(--azul);
-        border-radius: 8%;
+        border: 5px solid var(--azul);
+        border-radius: 10px;
+    }
+
+    .botões__ancora-2:hover{
+        border: 5px solid var(--azul);
+        border-radius: 10px;
     }
 }
 
