@@ -23,6 +23,10 @@
 .imagem__carrossel-3{
     border: 3px solid blue;
 }
+
+.swiper{
+    padding-bottom: 1em;
+}
 .swiper-slide img {
     width: 100%;
 }
@@ -41,11 +45,15 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 0.5em;
+    padding-left: 2em;
+    padding-right: 1em;
 }
 
 .card__botões {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 0.5em;
+    
 }
 
 .botões {
@@ -78,7 +86,9 @@
 }
 
 .descrição{
-    padding-right: 2em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    
 }
 
 .descrição__titulo {
@@ -91,6 +101,7 @@
     font-size: 18px;
     font-weight: 700;
     margin: 0.5em 0;
+    
 }
 
 .descrição__titulo-livro2 {
@@ -106,7 +117,15 @@
 
 .descrição__texto {
     font-size: 14px;
-    text-align: justify;
+    line-height: 1.5;
+    text-align: justify ;
+    
+}
+
+.descrição__texto2{
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: end;
 }
 
 .descrição__imagem{
@@ -158,6 +177,7 @@
 
     .swiper {
         width: 60%;
+        padding-bottom: 1em;
     }
 
     .swiper-button-prev,
@@ -175,10 +195,24 @@
         display: flex;
         justify-content: space-between;
         margin-bottom: 0.5em;
+        
+    }
+
+    .card__descrição_2 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.5em;
+        
     }
 
     .descrição{
-        padding-right: 5em;
+        padding-right: 2em;
+        
+    }
+
+    .descrição_2{
+        padding-right: 2em;
+        align-items: center;
     }
 
     .descrição__imagem{
