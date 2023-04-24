@@ -1,2 +1,0 @@
-# AluraBooks-responsividade
-# estudo-emad
