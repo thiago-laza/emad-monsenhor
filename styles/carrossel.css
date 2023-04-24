@@ -129,6 +129,7 @@
 }
 
 .descrição__imagem{
+    display: none;
     width: 90px;
     height: 90px;
     padding-top: 7.5em;
